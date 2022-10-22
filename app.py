@@ -78,5 +78,5 @@ def update_graph(n_storms, dollar_range):
     return fig
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__ == '__main__':
+	app.run_server()
