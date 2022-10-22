@@ -22,7 +22,7 @@ df['Year'].astype(int)
 # App
 
 app = dash.Dash(external_stylesheets=[dbc.themes.DARKLY])
-  
+server = app.server   
 
 # Layout
 
